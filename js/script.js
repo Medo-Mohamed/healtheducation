@@ -402,7 +402,7 @@ const DataAD = [
     {
         id: 41,
         MainTopic: "صحة البيئة",
-        Subtopic: "صحة البيئة",
+        Subtopic: "البيئة الصحية",
         in: false,
         out: false,
         child: 0,
@@ -571,6 +571,46 @@ const DataAD = [
     },
     {
         id: 58,
+        MainTopic: "مبادرات رئاسية وحملات توعية",
+        Subtopic: "مبادرة 100 يوم صحة",
+        in: false,
+        out: false,
+        child: 0,
+        men: 0,
+        women: 0,
+    },
+    {
+        id: 59,
+        MainTopic: "مبادرات رئاسية وحملات توعية",
+        Subtopic: "مبادرة رئيس الجمهورية للتنمية البشرية(بداية)",
+        in: false,
+        out: false,
+        child: 0,
+        men: 0,
+        women: 0,
+    },
+    {
+        id: 60,
+        MainTopic: "مبادرات رئاسية وحملات توعية",
+        Subtopic: "مبادرة رئيس الجمهورية (الألف يوم الذهبية لتنمية الأسرة المصرية)",
+        in: false,
+        out: false,
+        child: 0,
+        men: 0,
+        women: 0,
+    },
+    {
+        id: 61,
+        MainTopic: "مبادرات رئاسية وحملات توعية",
+        Subtopic: "مبادرة كل ثانية حياة",
+        in: false,
+        out: false,
+        child: 0,
+        men: 0,
+        women: 0,
+    },
+    {
+        id: 62,
         MainTopic: "موضوعات صحية مستحدثة / اخري",
         Subtopic: "سمكة القراض (الأرنب)",
         in: false,
@@ -580,7 +620,7 @@ const DataAD = [
         women: 0,
     },
     {
-        id: 59,
+        id: 63,
         MainTopic: "موضوعات صحية مستحدثة / اخري",
         Subtopic: "جدري القرود",
         in: false,
@@ -590,7 +630,7 @@ const DataAD = [
         women: 0,
     },
     {
-        id: 60,
+        id: 64,
         MainTopic: "موضوعات صحية مستحدثة / اخري",
         Subtopic: "الفيروس التنفسي المخلوي",
         in: false,
@@ -600,7 +640,7 @@ const DataAD = [
         women: 0,
     },
     {
-        id: 61,
+        id: 65,
         MainTopic: "موضوعات صحية مستحدثة / اخري",
         Subtopic: "مشروبات الطاقة",
         in: false,
@@ -609,6 +649,17 @@ const DataAD = [
         men: 0,
         women: 0,
     },
+    {
+        id: 66,
+        MainTopic: "موضوعات صحية مستحدثة / اخري",
+        Subtopic: "التوعية بالسعار(داء الكلب)",
+        in: false,
+        out: false,
+        child: 0,
+        men: 0,
+        women: 0,
+    },
+
 ];
 const DataN = [
     {
@@ -974,7 +1025,7 @@ const DataN = [
     {
         id: 41,
         MainTopic: "صحة البيئة",
-        Subtopic: "صحة البيئة",
+        Subtopic: "البيئة الصحية",
         women: 0,
         child: 0,
         men: 0,
@@ -1126,6 +1177,38 @@ const DataN = [
     },
     {
         id: 58,
+        MainTopic: "مبادرات رئاسية وحملات توعية",
+        Subtopic: "مبادرة 100 يوم صحة",
+        child: 0,
+        men: 0,
+        women: 0,
+    },
+    {
+        id: 59,
+        MainTopic: "مبادرات رئاسية وحملات توعية",
+        Subtopic: "مبادرة رئيس الجمهورية للتنمية البشرية(بداية)",
+        child: 0,
+        men: 0,
+        women: 0,
+    },
+    {
+        id: 60,
+        MainTopic: "مبادرات رئاسية وحملات توعية",
+        Subtopic: "مبادرة رئيس الجمهورية (الألف يوم الذهبية لتنمية الأسرة المصرية)",
+        child: 0,
+        men: 0,
+        women: 0,
+    },
+    {
+        id: 61,
+        MainTopic: "مبادرات رئاسية وحملات توعية",
+        Subtopic: "مبادرة كل ثانية حياة",
+        child: 0,
+        men: 0,
+        women: 0,
+    },
+    {
+        id: 62,
         MainTopic: "موضوعات صحية مستحدثة / اخري",
         Subtopic: "سمكة القراض (الأرنب)",
         women: 0,
@@ -1134,7 +1217,7 @@ const DataN = [
 
     },
     {
-        id: 59,
+        id: 63,
         MainTopic: "موضوعات صحية مستحدثة / اخري",
         Subtopic: "جدري القرود",
         women: 0,
@@ -1143,7 +1226,7 @@ const DataN = [
 
     },
     {
-        id: 60,
+        id: 64,
         MainTopic: "موضوعات صحية مستحدثة / اخري",
         Subtopic: "الفيروس التنفسي المخلوي",
         women: 0,
@@ -1152,13 +1235,21 @@ const DataN = [
 
     },
     {
-        id: 61,
+        id: 65,
         MainTopic: "موضوعات صحية مستحدثة / اخري",
         Subtopic: "مشروبات الطاقة",
         women: 0,
         child: 0,
         men: 0,
 
+    },
+    {
+        id: 66,
+        MainTopic: "موضوعات صحية مستحدثة / اخري",
+        Subtopic: "التوعية بالسعار(داء الكلب)",
+        child: 0,
+        men: 0,
+        women: 0,
     },
 ];
 
@@ -1349,13 +1440,6 @@ supDate.onclick = () => {
         }
     })
 
-    // for (let index = 0; index < inandoutChose.length; index++) {
-    //     if (inandoutChose[index].checked) {
-    //         daysCon.bothINday = inandoutChose[index].value;
-    //         break;
-    //     }
-    // }
-
     // console.log(daysCon);
     generate.classList.remove("disabled");
 }
@@ -1378,7 +1462,7 @@ function sortTopic(array) {
         return a.day - b.day;
     });
     array.forEach(element => {
-        if (element.day < 25) {
+        if (element.day <= 25) {
             if (x[`${element.month}-${element.year}`]) {
                 x[`${element.month}-${element.year}`].push(element);
             } else {
@@ -1409,7 +1493,7 @@ function drowTopic(object) {
     tbody.innerHTML = '';
     Object.keys(object).forEach(ele => {
         let detti = ele.split("-");
-        tbody.innerHTML+= `<tr>
+        tbody.innerHTML += `<tr>
         <td colspan="12" class="titelTopics fw-bolder">الجلسات التثقيفية عن شهر ${detti[0]} لعام ${detti[1]}</td>
         </tr>
         `
@@ -1520,12 +1604,12 @@ generate.addEventListener("click", () => {
                 year: year,
                 month: month,
                 day: day,
-                men: directDetiIn[randomNumber].men,
-                child: directDetiIn[randomNumber].child,
-                women: directDetiIn[randomNumber].women,
-                MainTopic: directDetiIn[randomNumber].MainTopic,
-                Subtopic: directDetiIn[randomNumber].Subtopic,
-                id: directDetiIn[randomNumber].id,
+                men: directDetiOut[randomNumber].men,
+                child: directDetiOut[randomNumber].child,
+                women: directDetiOut[randomNumber].women,
+                MainTopic: directDetiOut[randomNumber].MainTopic,
+                Subtopic: directDetiOut[randomNumber].Subtopic,
+                id: directDetiOut[randomNumber].id,
                 in: false,
                 out: true,
                 counter: counter,
@@ -1563,7 +1647,8 @@ var Close_overLay = document.querySelector(".Close_overLay");
 function reTopic(e) {
     let ind = DoneAll.findIndex(ele => ele.counter == e);
     let ele = DoneAll[ind];
-    // console.log(ele)
+    console.log(DoneAll);
+
 
     let oldDeta = `${ele.year}-${ele.month < 10 ? `0${ele.month}` : ele.month}-${ele.day < 10 ? `0${ele.day}` : ele.day}`;
     let startDetaLimit = `${startDate.getFullYear()}-${(startDate.getMonth() + 1) < 10 ? `0${(startDate.getMonth() + 1)}` : (startDate.getMonth() + 1)}-${(startDate.getDate()) < 10 ? `0${(startDate.getDate())}` : (startDate.getDate())}`;
@@ -1623,6 +1708,9 @@ function supTop() {
 }
 // console.log(Close_overLay)
 function saveChangesLay(params) {
+    // console.log(params)
+    // console.log(DoneAll)
+    let realIndex = DoneAll.findIndex(ele => ele.counter == params);
     let SupTopicSave = document.getElementById("SupTopicEsp");
     if (SupTopicSave.value) {
         let dateTime = new Date(document.getElementById("startDateTime").value);
@@ -1658,6 +1746,7 @@ function saveChangesLay(params) {
         DoneAll[params].child = childchange;
         DoneAll[params].men = manchange;
         DoneAll[params].women = womanchange;
+        DoneAll[params].id = DataN.find(e => e.Subtopic == SupTopicSave.value).id;
 
         drowTopic(sortTopic(DoneAll));
 
@@ -1764,7 +1853,7 @@ function acceptNewTopic(params) {
         // console.log(newop);
         DoneAll.push(newop);
         ///////////////////////////////////////////////////////////////////////
-        
+
         drowTopic(sortTopic(DoneAll));
 
         overLay.style.display = "none";
@@ -1793,7 +1882,7 @@ let closeLay = () => {
 
 generateMonthYear.addEventListener("click", () => {
     var dataMontlyAll = sortTopic(DoneAll);
-
+    // console.log(dataMontlyAll)
 
     //////////////////////////////////////////////////////////////////
     var monthly = document.querySelector(".monthly");
@@ -1843,7 +1932,7 @@ generateMonthYear.addEventListener("click", () => {
                 inTopic += i.in ? 1 : 0;
                 outTopic += i.out ? 1 : 0;
             }
-            // console.log(filIt);
+
             // console.log(mmm, chhhh, woooom, inTopic, outTopic);
             BodyMonthly.innerHTML += `
                 <tr class = "${(inTopic || outTopic) ? "intopicandout" : ""}">
@@ -1862,6 +1951,7 @@ generateMonthYear.addEventListener("click", () => {
                     <td style="width: 10%;"></td>
                 </tr>`;
         })
+        // console.log("==========");
         monthly.innerHTML += `<hr/>`
     })
 
